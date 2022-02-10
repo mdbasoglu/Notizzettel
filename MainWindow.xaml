@@ -13,7 +13,7 @@
         <TextBox HorizontalAlignment="Left" Height="187" Margin="36,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
         <Button x:Name="loeschen_button" Content="löschen" HorizontalAlignment="Left" Height="20" Margin="420,214,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="Left" Height="24" Margin="36,254,0,0" TextWrapping="Wrap" Text="neue Notiz" VerticalAlignment="Top" Width="72"/>
-        <TextBox HorizontalAlignment="Left" Height="22" Margin="36,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360"/>
+        <TextBox x:Name="Notizen" HorizontalAlignment="Left" Height="22" Margin="36,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360"/>
         <Button x:Name="speichern_button" Content="speichern" HorizontalAlignment="Left" Height="22" Margin="420,283,0,0" VerticalAlignment="Top" Width="84" Click="Button_Click_1"/>
 
     </Grid>
