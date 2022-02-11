@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mdbas\\Documents\\Notizzettel\\Notizzettel.csproj",
-      "projectName": "Notizzettel",
-      "projectPath": "C:\\Users\\mdbas\\Documents\\Notizzettel\\Notizzettel.csproj",
+      "projectUniqueName": "C:\\Users\\mdbas\\Documents\\Notizzettel\\WpfApp1.csproj",
+      "projectName": "WpfApp1",
+      "projectPath": "C:\\Users\\mdbas\\Documents\\Notizzettel\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\mdbas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mdbas\\Documents\\Notizzettel\\obj\\",
       "projectStyle": "PackageReference",

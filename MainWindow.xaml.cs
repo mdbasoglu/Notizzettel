@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Notizzettel
+namespace WpfApp1
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -25,12 +25,7 @@ namespace Notizzettel
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Window_Closed(object sender, RoutedEventArgs e)
+        private void Button_Click()
         {
 
         }
