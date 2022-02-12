@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="58,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="546"/>
+        <Button x:Name="löschen" Content="löschen" HorizontalAlignment="Left" Height="22" Margin="640,216,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button x:Name="einfügen" Content="einfügen" HorizontalAlignment="Left" Height="22" Margin="640,326,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click"/>
+        <ListBox x:Name="listBox1" d:ItemsSource="{d:SampleData ItemCount=0}" Margin="58,78,196,196"/>
+
+
+
 
     </Grid>
+    
 </Window>
