@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Notizzettel" Height="358" Width="537"
+        Closed="Window_Closed" Loaded="Window_Loaded">
     <Grid>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="58,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="546"/>
-        <Button x:Name="löschen" Content="löschen" HorizontalAlignment="Left" Height="22" Margin="640,216,0,0" VerticalAlignment="Top" Width="137"/>
-        <Button x:Name="einfügen" Content="einfügen" HorizontalAlignment="Left" Height="22" Margin="640,326,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click"/>
-        <ListBox x:Name="listBox1" d:ItemsSource="{d:SampleData ItemCount=0}" Margin="58,78,196,196"/>
-
-
-
-
+        <Label x:Name="lblNotiz" Content="Notizen" HorizontalAlignment="Left" Margin="24,20,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lbxNotizen" HorizontalAlignment="Left" Height="176" Margin="24,51,0,0" VerticalAlignment="Top" Width="382"/>
+        <Button x:Name="btnLöschen" Content="löschen" HorizontalAlignment="Left" Margin="423,205,0,0" VerticalAlignment="Top" Width="75" 
+                Click="btnLöschen_Click"/>
+        <Label x:Name="lblNeueNotiz" Content="neue Notiz" HorizontalAlignment="Left" Margin="24,250,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxNeueNotiz" HorizontalAlignment="Left" Height="22" Margin="24,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382"/>
+        <Button x:Name="btnSpeichern" Content="speichern" HorizontalAlignment="Left" Margin="423,281,0,0" VerticalAlignment="Top" Width="75" 
+                Click="btnSpeichern_Click"/>
     </Grid>
-    
 </Window>
